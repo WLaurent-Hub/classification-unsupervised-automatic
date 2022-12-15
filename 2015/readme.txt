@@ -1,1 +1,1 @@
-Mettre vos images sentinelles de cette date ici
+Mettre uniquement vos images sentinelles contenant les bandes utilisées de cette date dans ce répertoire
