@@ -76,14 +76,7 @@ def classif_unsupervised():
             radiometricIndice.SetParameterValue("channels.mir",5)
             radiometricIndice.SetParameterValue("out", output_radiometric_indice)
             radiometricIndice.ExecuteAndWriteOutput()
-            
-            # input_bandmath = glob.glob(str(Path(__file__).parent) + "/RADIOMETRIC_*" + indice.split(':')[1]+ ".tif")
-            # output_bandmath = str(Path(__file__).parent) + "/BANDMATH_"+ "20" + indice.split(':')[1] +".tif"
-            # bandmath.SetParameterStringList("il", input_bandmath)
-            # bandmath.SetParameterString("out", output_bandmath)
-            # bandmath.SetParameterString("exp", "(im6b1-im5b1-im4b1-im3b1-im2b1-im1b1)")
-            # bandmath.ExecuteAndWriteOutput()
-
+ 
         compteur+=1
         
     # concatène toutes les images 
