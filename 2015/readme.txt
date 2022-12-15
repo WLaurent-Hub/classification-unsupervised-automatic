@@ -1,1 +1,1 @@
-Mettre vos images sentinels de cette date ici
+Mettre vos images sentinelles de cette date ici
